@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Info Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #f7f8fa, #ddeaf7);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      margin-top: 200px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 450px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    form {
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 8px 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      margin-top: 20px;
+      background-color: #3498db;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Submit using POST</h2>
+  <form action="post.php" method="POST">
+    <label for="post-fname">First Name:</label>
+    <input type="text" name="firstname" id="post-fname">
+    <label for="post-mname">Middle Name:</label>
+    <input type="text" name="middlename" id="post-mname">
+    <label for="post-lname">Last Name:</label>
+    <input type="text" name="lastname" id="post-lname">
+    <label for="post-dob">Date of Birth:</label>
+    <input type="date" name="dob" id="post-dob">
+    <label for="post-address">Address:</label>
+    <input type="text" name="address" id="post-address">
+    <input type="submit" value="Submit">
+  </form>
+
+  <h2>Submit using GET</h2>
+  <form action="get.php" method="GET">
+    <label for="get-fname">First Name:</label>
+    <input type="text" name="firstname" id="get-fname">
+    <label for="get-mname">Middle Name:</label>
+    <input type="text" name="middlename" id="get-mname">
+    <label for="get-lname">Last Name:</label>
+    <input type="text" name="lastname" id="get-lname">
+    <label for="get-dob">Date of Birth:</label>
+    <input type="date" name="dob" id="get-dob">
+    <label for="get-address">Address:</label>
+    <input type="text" name="address" id="get-address">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
