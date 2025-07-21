@@ -33,14 +33,15 @@ Applications Development Repo ni Jan
 **4. Restart XAMPP**
 
 ## 📁 FA
-- [PSA4 Technical / Formative Assessment 4](https://github.com/LibrarianDarchivo/CCS0043-App-Dev/tree/main/FA4)
-- [PSA5 Technical / Formative Assessment 5](https://github.com/LibrarianDarchivo/CCS0043-App-Dev/tree/main/FA5)
-- [PSA6 Technical / Formative Assessment 6](https://github.com/LibrarianDarchivo/CCS0043-App-Dev/tree/main/FA6)
+- [PSA4 Technical / Formative Assessment 4](https://github.com/KrilenkoZambab37/CS0043/tree/main/FA4)
+- [PSA5 Technical / Formative Assessment 5](https://github.com/KrilenkoZambab37/CS0043/tree/main/FA5)
+- [PSA6 Technical / Formative Assessment 6](https://github.com/KrilenkoZambab37/CS0043/tree/main/FA6)
 
 ## 📁 Eh
-- [Renaissance Grid Gallery](https://github.com/LibrarianDarchivo/CCS0043-App-Dev/tree/main/Renaissance%20Grid%20Gallery)
-- [Student Registration Page](https://github.com/LibrarianDarchivo/CCS0043-App-Dev/tree/main/Student%20Registration%20Page)
-- [Student Grade Calculator](https://github.com/LibrarianDarchivo/CCS0043-App-Dev/tree/main/Student%20Score%20Calculator)
+- [Renaissance Grid Gallery](https://github.com/KrilenkoZambab37/CS0043/tree/main/Renaissance%20Grid%20Gallery)
+- [Student Registration Page](https://github.com/KrilenkoZambab37/CS0043/tree/main/Student%20Registration%20Page)
+- [Student Grade Calculator](https://github.com/KrilenkoZambab37/CS0043/tree/main/Student%20Score%20Calculator)
+- [Student Registration Form](https://github.com/KrilenkoZambab37/CS0043/tree/main/Student-Reg-Form)
 
 ## 📝 Notes
 - localhost/phpmyadmin
